@@ -1,0 +1,17 @@
+/* --- PERSONNALISATION GÉNÉRALE --- */
+:root {
+    --primary-color: #007bff;
+    --dark-bg: #1a1a1a;
+    --text-color: #333;
+}
+
+.custom-btn {
+    font-family: "Arial", sans-serif;
+}
+
+.bottom-container {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+}

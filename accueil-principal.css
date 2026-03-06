@@ -1,0 +1,29 @@
+/* Image floue en arrière-plan */
+.background-blur {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: url('degrade.webp') no-repeat center center;
+    background-size: cover;
+    filter: blur(12px);
+    z-index: -1;
+}
+
+.content {
+    position: relative;
+    z-index: 1;
+}
+
+.center-container {
+    display: flex;
+    flex-direction: column; /* place les éléments l’un sous l’autre */
+    justify-content: center;
+    align-items: center;
+    gap: 50px; /* espace entre les boutons */
+}
+
+.custom-btn {
+    font-family: "Arial", sans-serif;
+}
